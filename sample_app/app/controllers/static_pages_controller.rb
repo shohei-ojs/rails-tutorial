@@ -3,6 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+    flash[:notice] = "Hello,World"
   end
 
   def about
